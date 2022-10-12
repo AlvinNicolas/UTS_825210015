@@ -4,6 +4,19 @@
     display:flex; 
     justify-content:center;
     margin-bottom: 90px;
+    margin-top: 70px;
+}
+
+body {
+    background: black;
+}
+
+body h6 {
+    color: white;
+}
+
+body p {
+    color: white;
 }
 
 .content-galeri{
@@ -26,17 +39,25 @@
     align-items: center;
     justify-items: center;
     flex-direction: column;
+    /* background: khaki */
 }
+
+/* .gambar-kiri {
+    background: black;
+} */
 
 .kananform .gambar-kiri img {
     width: 50px;
 }
+
+
 
 .kedua img {
     width: 20px;
     height: 20px;
     margin-left: -10px;
     margin-top: 1px;
+    background: red;
 }
 
 
@@ -70,9 +91,10 @@
     width: 550px;
     height: 290px;
     margin-left: -90px;
-
-   
 }
+
+
+
 
 .galeri-bawah .content-galeri .gambar-kiri button  {
     margin-top: -70px;
@@ -115,6 +137,7 @@
 .kananform  input  {
     margin-top: 10px;
     width: 200px;
+    border: none;
     height: 40px;
 }
 .kananform  button  {
@@ -125,6 +148,7 @@
     border: 3px 1px 1px;
     cursor: pointer;
     background: aqua;
+    border: none;
 }
 
 
@@ -138,6 +162,10 @@
 
 .inkategori {
     padding: 30px;
+}
+
+.inkategori h3 {
+    text-align: center;
 }
 
 .kanan .kategori {
@@ -183,6 +211,11 @@
     background: aqua;
     
 }
+
+.recent-pos h4{
+    text-align: center;
+}
+
 .kirim .recent-pos {
     padding: 30px;
     /* border: 1px soliud red; */
@@ -234,10 +267,15 @@
     color: red;
 }
 
+.recent-pos p {
+    color: black;
+}
+
 
 .tag-clouds {
     margin-top: 15px;
     /* border: 1px solid red; */
+    background: whitesmoke;
     padding: 30px;
 }
 
@@ -245,18 +283,27 @@
     background: #ffff;
     margin-top: 1px;
     float: left;
-    border: 1px solid whitesmoke;
+    border: 1px solid silver;
+    border-radius: 3px;
     margin-right: 12px;
     cursor: pointer;
+    color: black;
+}
+
+.tag-clouds h1 {
+    text-align: center;
+    margin-bottom: 12px;
 }
 
 .tag-clouds .list-tulisan p:hover {
     background: brown;
+    transition: 1s;
 }
 
 .instagram-feeds {
     margin-top: 15px;
     padding: 30px;
+    background: whitesmoke;
     /* border: 1px solid red; */
 }
 
@@ -266,12 +313,24 @@
     cursor: pointer;
 }
 
+.instagram-feeds h1 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
 .newsletter {
     margin-top: 14px;
     /* border: 1px solid red; */
+    background: whitesmoke;
     padding: 30px;
 }
 
+.newsletter {
+    /* background: darkgray; */
+}
 
+.input-news {
+    margin-left: 30px;
+}
 
 
