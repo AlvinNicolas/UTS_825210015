@@ -1,0 +1,336 @@
+@import url(style2.css);
+.galeri-bawah {
+    width:100%; 
+    display:flex; 
+    justify-content:center;
+    margin-bottom: 90px;
+    margin-top: 70px;
+}
+
+body {
+    background: black;
+}
+
+body h6 {
+    color: white;
+}
+
+body p {
+    color: white;
+}
+
+.content-galeri{
+    width: 650px; 
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.galeri-bawah .content-galeri h1 {
+    font-size: 30px;
+}
+
+.bungkus-dalam {
+    flex-direction: row;
+}
+.bungkus-kiri {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    /* background: khaki */
+}
+
+/* .gambar-kiri {
+    background: black;
+} */
+
+.kananform .gambar-kiri img {
+    width: 50px;
+}
+
+
+
+.kedua img {
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    margin-top: 1px;
+    background: red;
+}
+
+
+.kedua .tulisan-kedua p {
+    margin-top: -18px;
+    display: flex;
+    justify-content: center;
+    margin-right: 550px;
+
+}
+
+
+
+.kananform {
+    margin-left: 90px;
+    /* border: 1px solid red; */
+}
+
+.kananform .tulisan-kanan {
+    display: grid;
+    grid-template-columns: row;
+}
+
+
+
+.galeri-bawah  {
+    margin-bottom:90px ;
+
+}
+.galeri-bawah .content-galeri .gambar-kiri img {
+    width: 550px;
+    height: 290px;
+    margin-left: -90px;
+}
+
+
+
+
+.galeri-bawah .content-galeri .gambar-kiri button  {
+    margin-top: -70px;
+    margin-left: -40px;
+    padding: 32px 16px;
+    width: 90px;
+    border-radius: 12px;
+    border: none;
+    background: #FF4A52;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.galeri-bawah .content-galeri .gambar-kiri button:hover {
+    background: transparent;
+}
+
+.galeri-bawah .content-galeri .tulisan-teks  {
+    margin-left: -90px;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.galeri-bawah .content-galeri .tulisan-teks h6 {
+    float: left;
+    margin-left:-10px;
+}
+
+.galeri-bawah .content-galeri .tulisan-teks p {
+    text-align: left;
+    margin-left: -10px;
+}
+
+ .kananform .gambar-kiri {
+    padding: 30px;
+}
+
+.kananform  input  {
+    margin-top: 10px;
+    width: 200px;
+    border: none;
+    height: 40px;
+}
+.kananform  button  {
+    margin-top: 2px;
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    border: 3px 1px 1px;
+    cursor: pointer;
+    background: aqua;
+    border: none;
+}
+
+
+
+.kategori {
+    background-color: #fbf9ff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
+
+.inkategori {
+    padding: 30px;
+}
+
+.inkategori h3 {
+    text-align: center;
+}
+
+.kanan .kategori {
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.inkategori ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.inkategori a {
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+}
+
+.inkategori a:hover {
+    color: red;
+}
+
+.bungkus-dalam {
+    padding:30px;
+}
+
+
+
+.kirim  {
+    background: #fbf9ff;
+}
+
+
+
+.gambar-kiri input {
+    margin-bottom: 12px;
+    background: aqua;
+    
+}
+
+.recent-pos h4{
+    text-align: center;
+}
+
+.kirim .recent-pos {
+    padding: 30px;
+    /* border: 1px soliud red; */
+
+}
+
+.gambar-pos {
+    margin-top: 15px;
+}
+
+.tulisan-post {
+    margin-bottom: 12px;
+}
+
+.kirim .recent-pos .tulisan-post {
+    display: flex;
+    flex-direction: column;
+    margin-top: -37px;
+    margin-left: 60px;
+}
+
+.kirim .gambar-pos img {
+    width: 50px;
+    height: 50px;
+}
+
+/*pagination*/
+.pagination{
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 20px;
+}
+.pagination a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: grey;
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: 1px solid rgba(255, 255, 255, 0.619);
+}
+.pagination a:hover{
+    background-color: silver;
+    border-radius: 10px;
+    color: white;
+}
+.pagination a.active{
+    color: red;
+}
+
+.recent-pos p {
+    color: black;
+}
+
+
+.tag-clouds {
+    margin-top: 15px;
+    /* border: 1px solid red; */
+    background: whitesmoke;
+    padding: 30px;
+}
+
+.tag-clouds .list-tulisan p {
+    background: #ffff;
+    margin-top: 1px;
+    float: left;
+    border: 1px solid silver;
+    border-radius: 3px;
+    margin-right: 12px;
+    cursor: pointer;
+    color: black;
+}
+
+.tag-clouds h1 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.tag-clouds .list-tulisan p:hover {
+    background: brown;
+    transition: 1s;
+}
+
+.instagram-feeds {
+    margin-top: 15px;
+    padding: 30px;
+    background: whitesmoke;
+    /* border: 1px solid red; */
+}
+
+.instagram-feeds .img-feeds img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.instagram-feeds h1 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.newsletter {
+    margin-top: 14px;
+    /* border: 1px solid red; */
+    background: whitesmoke;
+    padding: 30px;
+}
+
+.newsletter {
+    /* background: darkgray; */
+}
+
+.input-news {
+    margin-left: 30px;
+}
+
+
